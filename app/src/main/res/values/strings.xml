@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Sensors</string>
+    <string name="stable_text">stable</string>
+    <string name="GYROLeft_Text">Gyro: Left</string>
+    <string name="GYRORight_Text">Gyro: Right</string>
+    <string name="GYROUp_Text">Gyro: up</string>
+    <string name="GYRODown_Text">Gyro: down</string>
+    <string name="LightSensor_Text">Available Light: </string>
+    <string name="Accelerometer_Text">Magnitude: </string>
+    <string name="Magnitude_Text"> m/s^2</string>
+    <string name="MagneticField_Text">Magnetic Level: </string>
+    <string name="Magnitude_Value"> T</string>
+    <string name="Proximity_Text">proximity : </string>
+    <string name="Proximity_Value">CM</string>
+    <string name="sensorBlocked">Sensor Blocked</string>
+    <string name="sensorUnblock">Sensor is clear now.</string>
+    <string name="sensors_Text">Sensors</string>
+    <string name="compassAnimation">CompassAnimation</string>
 </resources>

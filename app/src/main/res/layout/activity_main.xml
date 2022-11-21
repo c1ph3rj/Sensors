@@ -11,73 +11,72 @@
         android:id="@+id/MagneticFieldValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="20sp"
+        android:textSize="@dimen/TS_20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.202" />
+        app:layout_constraintVertical_bias="0.202"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/AccelerometerValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="20sp"
+        android:textSize="@dimen/TS_20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.297" />
+        app:layout_constraintVertical_bias="0.297"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/textViewOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="20sp"
+        android:textSize="@dimen/TS_20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.109" />
+        app:layout_constraintVertical_bias="0.109"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/GyroValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        android:textSize="20sp"
+        android:textSize="@dimen/TS_20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewOne"
-        app:layout_constraintVertical_bias="0.366" />
+        app:layout_constraintVertical_bias="0.366"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/LightValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-
-        android:textSize="20sp"
+        android:textSize="@dimen/TS_20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewOne"
-        app:layout_constraintVertical_bias="0.255" />
+        app:layout_constraintVertical_bias="0.255"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        app:cardCornerRadius="180dp"
-        app:cardElevation="8dp"
+        android:layout_width="@dimen/W_300dp"
+        android:layout_height="@dimen/H_300dp"
+        app:cardCornerRadius="@dimen/R_180dp"
+        app:cardElevation="@dimen/E_8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -87,13 +86,14 @@
 
         <ImageView
             android:id="@+id/compass"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
+            android:layout_width="@dimen/W_300dp"
+            android:layout_height="@dimen/H_300dp"
             android:background="@color/white"
-            android:paddingEnd="10dp"
+            android:paddingEnd="@dimen/P_10dp"
             android:scaleType="fitCenter"
             android:src="@drawable/compass"
-            tools:ignore="RtlSymmetry" />
+            tools:ignore="RtlSymmetry"
+            android:contentDescription="@string/compassAnimation" />
 
     </androidx.cardview.widget.CardView>
 
@@ -101,16 +101,17 @@
         android:id="@+id/SENSORS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sensors"
+        android:text="@string/sensors_Text"
         android:textAllCaps="true"
         android:textColor="?attr/colorOnPrimary"
-        android:textSize="30sp"
+        android:textSize="@dimen/TS_30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textViewOne"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

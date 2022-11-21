@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TS_20sp">20sp</dimen>
+    <dimen name="W_300dp">300dp</dimen>
+    <dimen name="H_300dp">300dp</dimen>
+    <dimen name="R_180dp">180dp</dimen>
+    <dimen name="E_8dp">8dp</dimen>
+    <dimen name="P_10dp">10dp</dimen>
+    <dimen name="TS_30sp">30sp</dimen>
+</resources>
